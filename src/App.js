@@ -6,7 +6,7 @@ import TopNav from "./components/TopNav";
 function App() {
     return (
         <div className="App">
-            <TopNav />
+            {/* <TopNav /> */}
             <Switch>
                 <Route path="/" component={Home} />
             </Switch>

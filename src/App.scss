@@ -1,1 +1,52 @@
+body {
+    height: 100%;
+    width: 100%;
+
+    background-image: url("./images/star-bg.jpg");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.home {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 1em;
+    height: 100vh;
+
+    padding-top: 30vh;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+$theme-colors: (
+    primary: #e663c7,
+);
+
+.name {
+    font-family: "Patua One", serif;
+    font-weight: 400;
+    text-decoration: shadow;
+    font-size: 5rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "~bootstrap/scss/bootstrap";
