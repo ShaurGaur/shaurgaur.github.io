@@ -6,7 +6,10 @@ const Home = () => {
         <div class="home" width="100%">
             <h1 class="name">Shaurya Gaur</h1>
             <p class="subtitle">
-                Computer Science Student @ Oregon State University
+                MSc Candidate, Societal Impact of AI
+            </p>
+            <p class="subtitle">
+                Radboud University Nijmegen
             </p>
             <div>
                 {[
